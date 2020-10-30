@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "geneticDDLands", "geneticDDLands.csproj", "{9CFD3B43-675F-4582-A521-A6D978195B11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CFD3B43-675F-4582-A521-A6D978195B11}.Debug|x86.ActiveCfg = Debug|x86
+		{9CFD3B43-675F-4582-A521-A6D978195B11}.Debug|x86.Build.0 = Debug|x86
+		{9CFD3B43-675F-4582-A521-A6D978195B11}.Release|x86.ActiveCfg = Release|x86
+		{9CFD3B43-675F-4582-A521-A6D978195B11}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6D7A497-BEB6-4B77-B111-931881523603}
+	EndGlobalSection
+EndGlobal

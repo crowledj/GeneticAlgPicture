@@ -1,0 +1,138 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{D8210D7F-1EE0-49D8-B69D-07F89DC47AB9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>generateLandnSea</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\tasks.json" />
+    <None Include=".vs\MakeLand\v14\.suo" />
+    <None Include="MakeLand\App.config" />
+    <None Include="MakeLand\bin\Debug\MakeLand.exe.config" />
+    <None Include="MakeLand\bin\Debug\MakeLand.vshost.exe.config" />
+    <None Include="MakeLand\bin\Debug\MakeLand.vshost.exe.manifest" />
+    <None Include="MakeLand\bin\Debug\WindowsApplication.exe.config" />
+    <None Include="MakeLand\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="MakeLand\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="MakeLand\obj\Debug\MakeLand.csproj.CoreCompileInputs.cache" />
+    <None Include="MakeLand\obj\Debug\MakeLand.csproj.GenerateResource.Cache" />
+    <None Include="MakeLand\obj\Debug\MakeLand.csprojAssemblyReference.cache" />
+    <None Include="MakeLand\obj\Debug\MakeLand.csprojResolveAssemblyReference.cache" />
+    <None Include="MakeLand\obj\Release\MakeLand.csproj.CoreCompileInputs.cache" />
+    <None Include="MakeLand\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="MakeLand\obj\x86\Debug\geneticDDLands.csproj.CoreCompileInputs.cache" />
+    <None Include="MakeLand\obj\x86\Debug\geneticDDLands.csproj.GenerateResource.cache" />
+    <None Include="MakeLand\obj\x86\Debug\geneticDDLands.csprojAssemblyReference.cache" />
+    <None Include="MakeLand\obj\x86\Debug\makeLandSelinaWangProj.csproj.CoreCompileInputs.cache" />
+    <None Include="MakeLand\obj\x86\Debug\makeLandSelinaWangProj.csproj.GenerateResource.cache" />
+    <None Include="MakeLand\obj\x86\Debug\makeLandSelinaWangProj.csprojAssemblyReference.cache" />
+    <None Include="MakeLand\obj\x86\Release\geneticDDLands.csproj.CoreCompileInputs.cache" />
+    <None Include="MakeLand\Properties\Settings.settings" />
+    <None Include="MakeLand\SelenaWangsgeneticAlgPicAssign.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MakeLand\Form1.cs" />
+    <Compile Include="MakeLand\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakeLand\Form2.cs" />
+    <Compile Include="MakeLand\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakeLand\Global.cs" />
+    <Compile Include="MakeLand\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="MakeLand\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="MakeLand\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="MakeLand\Population.cs" />
+    <Compile Include="MakeLand\Program.cs" />
+    <Compile Include="MakeLand\Properties\AssemblyInfo.cs" />
+    <Compile Include="MakeLand\Properties\Resources.Designer.cs" />
+    <Compile Include="MakeLand\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MakeLand\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeLand\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeLand\obj\Debug\MakeLand.Form1.resources" />
+    <EmbeddedResource Include="MakeLand\obj\Debug\MakeLand.Form2.resources" />
+    <EmbeddedResource Include="MakeLand\obj\Debug\MakeLand.Properties.Resources.resources" />
+    <EmbeddedResource Include="MakeLand\obj\x86\Debug\geneticDDLands.Properties.Resources.resources" />
+    <EmbeddedResource Include="MakeLand\obj\x86\Debug\MakeLand.Form1.resources" />
+    <EmbeddedResource Include="MakeLand\obj\x86\Debug\MakeLand.Form2.resources" />
+    <EmbeddedResource Include="MakeLand\obj\x86\Debug\makeLandSelinaWangProj.Properties.Resources.resources" />
+    <EmbeddedResource Include="MakeLand\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MakeLand\bin\Debug\MakeLand.exe" />
+    <Content Include="MakeLand\bin\Debug\MakeLand.pdb" />
+    <Content Include="MakeLand\bin\Debug\MakeLand.vshost.exe" />
+    <Content Include="MakeLand\bin\Debug\WindowsApplication.exe" />
+    <Content Include="MakeLand\bin\Debug\WindowsApplication.pdb" />
+    <Content Include="MakeLand\geneticDDLands.csproj" />
+    <Content Include="MakeLand\geneticDDLands.csproj.user" />
+    <Content Include="MakeLand\geneticDDLands.sln" />
+    <Content Include="MakeLand\MakeLand.csproj" />
+    <Content Include="MakeLand\makeLandSelinaWangProj.csproj" />
+    <Content Include="MakeLand\makeLandSelinaWangProj.csproj.user" />
+    <Content Include="MakeLand\makeLandSelinaWangProj.sln" />
+    <Content Include="MakeLand\obj\Debug\MakeLand.csproj.FileListAbsolute.txt" />
+    <Content Include="MakeLand\obj\Debug\MakeLand.exe" />
+    <Content Include="MakeLand\obj\Debug\MakeLand.pdb" />
+    <Content Include="MakeLand\obj\x86\Debug\geneticDDLands.csproj.FileListAbsolute.txt" />
+    <Content Include="MakeLand\obj\x86\Debug\makeLandSelinaWangProj.csproj.FileListAbsolute.txt" />
+    <Content Include="MakeLand\obj\x86\Debug\WindowsApplication.exe" />
+    <Content Include="MakeLand\obj\x86\Debug\WindowsApplication.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\generateLandnSea\v15\" />
+    <Folder Include="MakeLand\bin\Release\" />
+    <Folder Include="MakeLand\obj\Debug\TempPE\" />
+    <Folder Include="MakeLand\obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

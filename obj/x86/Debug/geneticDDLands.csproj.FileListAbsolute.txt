@@ -1,0 +1,11 @@
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\bin\Debug\WindowsApplication.exe.config
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\bin\Debug\WindowsApplication.exe
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\bin\Debug\WindowsApplication.pdb
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\geneticDDLands.csprojAssemblyReference.cache
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\MakeLand.Form1.resources
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\MakeLand.Form2.resources
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\geneticDDLands.Properties.Resources.resources
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\geneticDDLands.csproj.GenerateResource.cache
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\geneticDDLands.csproj.CoreCompileInputs.cache
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\WindowsApplication.exe
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\WindowsApplication.pdb

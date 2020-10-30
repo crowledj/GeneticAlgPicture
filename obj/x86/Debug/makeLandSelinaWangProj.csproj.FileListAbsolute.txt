@@ -1,0 +1,6 @@
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\MakeLand.Form1.resources
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\MakeLand.Form2.resources
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\makeLandSelinaWangProj.Properties.Resources.resources
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\makeLandSelinaWangProj.csproj.GenerateResource.cache
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\makeLandSelinaWangProj.csproj.CoreCompileInputs.cache
+C:\Users\MaaD\Desktop\pythonCode\MakeLand_SV\MakeLand\obj\x86\Debug\makeLandSelinaWangProj.csprojAssemblyReference.cache
